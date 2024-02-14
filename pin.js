@@ -7,4 +7,5 @@ if (pass.toLowerCase() == pwd.toLowerCase()) {
   alert('Welcome Staff!');
 } else {
   alert('Incorrect password. Access denied.'); 
+  location.reload();
 }
