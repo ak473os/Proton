@@ -37,6 +37,26 @@ setInterval(changeColor, 1000); // Change color every 1 second
 
 
 <style>
+ #topbar {
+  background-color: #333; /* Your desired background color */
+  padding: 15px;
+  overflow: hidden; /* Ensures content stays within the rounded area */
+  border-radius: 10px; /* Adjust the radius for more or less rounding */
+}
+
+.game {
+  text-align: center; /* Centers the menu items */
+}
+
+.game a {
+  color: white;  /* Your desired link color */
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block; /* Allows setting padding around links */
+  margin: 0 5px;  /* Adds some space between links */
+} 
+
+ 
   #color-changing-text {
   color: red; 
   transition: color 1s ease-in-out; 
