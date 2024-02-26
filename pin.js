@@ -1,7 +1,7 @@
 
 
 let pass = prompt("Restricted Access! Enter the password to enter this site!");
-let pwd = "ProtonStaff1";
+let pwd = "ProtonTester";
 
 if (pass === null) { // Check for canceled prompt
   location.reload(); 
